@@ -1,0 +1,32 @@
+﻿body {
+    background-color: black;
+    color: white;
+}
+
+canvas {
+    border: solid white 1px;
+    display: block;
+    margin: 5px auto;
+}
+
+.restart {
+    display: block;
+    margin: 5px auto;
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    border: solid white 1px;
+}
+
+.restart:hover {
+    background-color: white;
+    color: black;
+}
+
+.restart:active {
+    background-color: #ddd;
+    color: black;
+}
